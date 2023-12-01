@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    """ This function prints all basic operations imported from a module """
+    """This function prints all basic operations imported from a module"""
     from calculator_1 import add, sub, mul, div
 
     a = 10
