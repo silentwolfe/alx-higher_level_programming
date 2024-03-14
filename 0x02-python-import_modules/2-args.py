@@ -1,4 +1,4 @@
-#!/usr/bin/python4
+#!/usr/bin/python3
 
 if __name__ == "__main__":
     """This function prints the number of list and arguments."""
