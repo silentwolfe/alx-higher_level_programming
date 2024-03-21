@@ -5,10 +5,10 @@ def roman_to_int(roman_string):
     prev_value = 0
     total = 0
 
-   if not isinstance(roman_string, str) or roman_string is None:
+    if not isinstance(roman_string, str) or roman_string is None:
        return 0
 
-   for num in reversed(roman_string):
+    for num in reversed(roman_string):
         value = roman_values[num]
 
         if value >= prev_value:
