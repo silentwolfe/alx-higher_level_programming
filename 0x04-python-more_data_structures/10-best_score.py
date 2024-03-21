@@ -4,7 +4,7 @@ def best_score(a_dictionary):
     max_value = float('-inf')
     best_key = None
 
-    if a_dictionary == None:
+    if a_dictionary is None:
         return None
 
     for key, value in a_dictionary.items():
