@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# 2-rectangle.py
+# 5-rectangle.py
 # created by Osaro. e
 
 """ The class Rectangle """
@@ -57,3 +57,5 @@ class Rectangle:
 
     def __repr__(self):
         return f"Rectangle(width={self.__width}, height={self.__height})"
+    def __del__(self):
+        print("Bye rectangle...")
