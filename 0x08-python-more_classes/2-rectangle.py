@@ -4,6 +4,9 @@
 # created by Osaro. e
 
 class Rectangle:
+    """ In the rectangle class i've added two more methods (Area and perimeter)
+    both used to perform calculations on the Rectangle object """
+
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
