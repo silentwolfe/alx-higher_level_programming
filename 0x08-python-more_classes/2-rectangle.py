@@ -3,6 +3,9 @@
 # 2-rectangle.py
 # created by Osaro. e
 
+""" The class Rectangle """
+
+
 class Rectangle:
     """ In the rectangle class i've added two more methods (Area and perimeter)
     both used to perform calculations on the Rectangle object """
