@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 # 0-lookup.py
 # created by Osaro. E
 
