@@ -10,7 +10,7 @@ def write_file(filename="", text=""):
         return
     try:
         with open(filename, "w", encoding="utf-8") as file:
-             nb = file.write(text)
-             return nb
+            nb = file.write(text)
+            return nb
     except Exception as e:
-         print(f"Error occured {e}")
+        print(f"Error occured {e}")
