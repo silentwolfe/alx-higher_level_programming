@@ -7,7 +7,6 @@
 
 
 class MyList(list):
-    
     """ The function prints out a sorted list.
     Returns:
     None
