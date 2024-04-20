@@ -1,9 +1,19 @@
 #!/usr/bin/python3
-import json
 
-""" The function stringifies all object passed into it """
+""" Module that contains a function that provides
+a json representation all object passed into it
+"""
+import json
 
 
 def to_json_string(my_obj):
-    """ my_obj (object): The function stringifies """
+    """Json representation
+
+    Args:
+        my_obj (object): The object to be stringified
+
+    Returns:
+        string: The json help decode the data type into that
+        of a string.
+    """
     return json.dumps(my_obj)
