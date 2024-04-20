@@ -9,7 +9,7 @@ def write_file(filename="", text=""):
         print("Please provide a file name")
         return
     try:
-        with open(filename, "a", encoding="utf-8") as file:
+        with open(filename, "A", encoding="utf-8") as file:
             nb = file.write(text)
             return nb
     except Exception as e:
