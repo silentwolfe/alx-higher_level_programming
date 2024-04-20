@@ -3,8 +3,8 @@
 """ This program creates a function that appends to a file """
 
 
-def write_file(filename="", text=""):
-    """ Appending to a file """
+def append_write(filename="", text=""):
+    """ Appending text contents to a file """
     if not filename:
         print("Please provide a file name")
         return
