@@ -14,5 +14,3 @@ def append_write(filename="", text=""):
             return nb
     except Exception as e:
         print(f"Error occured {e}")
-    except PermissionError:
-        print("[PermissionError] [Errno 13] Permission denied: 'no_perm/o_file'")
